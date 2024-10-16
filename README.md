@@ -1,2 +1,15 @@
 # ToDoList-react-node.js
-mini project
+a to-do list to practice react and node.js
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - CSS
+  - 
+- **Backend:**
+  - Node.js
+  - Express.js
+  - 
+- **Other:**
+  - Axios 
