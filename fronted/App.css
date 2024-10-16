@@ -1,0 +1,50 @@
+body{
+  background-color: rgba(0, 0, 0, 0.79);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1{
+  color:rgba(255, 0, 0, 0.662);
+  font-weight: bold;
+  font: sans-serif;
+}
+.to-do-list-container{
+  background-color: rgba(255, 255, 255, 0.913);
+  border: 5px solid rgba(0, 0, 0, 0.062);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 35%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.task-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+.delete-button
+{
+  border: none;
+  padding: 5px 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover
+{
+  background-color: rgb(142, 0, 0);
+  transition: backround-color 0.5s ease;
+}
